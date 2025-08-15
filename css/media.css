@@ -56,15 +56,36 @@
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
     #page-container {
-        top: 1%;
-        left: 1%;
+        padding:5px;
+        top: 3%;
+        left: 8%;
+    }
+    #bio-container {
+        width:85%;
     }
     #bio-img-container{
         margin-bottom: 15px;
     }
     #bio-img {
-        left: 10%;
+        left: 16%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #page-container {
+        top: 2%;
+        left: 6%;
+    }
+    #bio-container {
+        width:83%;
+    }
+    #bio-img-container{
+        margin-bottom: 15px;
+    }
+    #bio-img {
+        left: 7%;
+        margin-bottom: 10px;
     }
 }
